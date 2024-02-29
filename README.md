@@ -32,7 +32,7 @@ Options:
 Socket addresses may be specified as an IPv4 or IPv6 address, or a domainname, and may include a
 port number. If no port is specified, then the default of 6969 will be used. If no address is
 specified for a transport protocol, then [::] and/or 0.0.0.0 will be used. To disable listening on
-an protocol, use "-t -" or "-u -".
+a protocol, use "-t -" or "-u -".
 ```
 
 ### Examples
