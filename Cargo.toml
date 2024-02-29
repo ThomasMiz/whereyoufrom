@@ -2,8 +2,13 @@
 name = "whereyoufrom"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "A small network diagnostic tool that listens for incoming TCP/UDP connections and simply replies by telling them their IP and port."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/ThomasMiz/whereyoufrom"
+keywords = ["tcp", "udp", "network-tool", "my-ip", "port"]
+categories = ["network-programming", "development-tools", "command-line-utilities"]
+rust-version = "1.76.0"
 
 [dependencies]
 tokio = { version = "1.36", features = ["rt", "net", "signal", "io-util"] }
